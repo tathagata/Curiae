@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>JSON Example Timeline</title>
+		<meta name="description" content="TimelineJS example">
+
+		<style>
+			html, body {
+				height:100%;
+				padding: 0px;
+				margin: 0px;
+			}
+			#timeline-embed{
+				margin:0px !important;
+				border:0px solid #CCC !important;
+				padding:0px !important;
+				-webkit-border-radius:0px !important;
+				-moz-border-radius:0px !important;
+				border-radius:0px !important;
+				-moz-box-shadow:0 0px 0px rgba(0, 0, 0, 0.25) !important;
+				-webkit-box-shadow:0 0px 0px rgba(0, 0, 0, 0.25) !important;
+				box-shadow:0px 0px 0px rgba(0, 0, 0, 0.25) !important;
+			}
+			
+		</style>
+		
+	</head>
+
+	<body>
+		<!-- BEGIN Timeline Embed -->
+		<div id="timeline-embed"></div>
+		<script type="text/javascript">
+		   var testObject = 
+			{
+			    "timeline":
+			    {
+				"headline":"The Kitchen Sink",
+				"type":"default",
+					"startDate":"2011,9,1",
+					"text":"An example of the different kinds of stuff you can do.",
+				"date": [
+				    {
+					"startDate":"2012,1,26",
+					"headline":"Sh*t Politicians Say",
+					"text":"<p>Sh*t Politicians Say landed just hours before Thursday night’s Republican presidential debate and stars actor Joe Leon. In true political fashion, his character rattles off common jargon heard from people running for office.</p><p>Do these ring a bell? Moral fiber, family values, trust me, three-point plan, earmarks, tough question, children are our future, Washington outsider, jobs, my opponent — all sound familiar.</p>",
+					"asset":
+					{
+					    "media":"http://youtu.be/u4XpeU9erbg",
+					    "credit":"",
+					    "caption":""
+					}
+				    },            
+					{
+					"startDate":"2012,1,10",
+					"headline":"Sh*t Nobody Says",
+					"text":"<p>Have you ever heard someone say “can I burn a copy of your Nickelback CD?” or “my Bazooka gum still has flavor!” Nobody says that.</p>",
+					"asset":
+					{
+					    "media":"http://youtu.be/f-x8t0JOnVw",
+					    "credit":"",
+					    "caption":""
+					}
+				    },
+					{
+					"startDate":"2012,1,26",
+					"headline":"Sh*t Chicagoans Say",
+					"text":"",
+					"asset":
+					{
+					    "media":"http://youtu.be/Ofy5gNkKGOo",
+					    "credit":"",
+					    "caption":""
+					}
+					},
+					]
+				}
+			};
+			 
+			// Put the object into storage
+			localStorage.setItem('testObject', JSON.stringify(testObject));
+
+			// Retrieve the object from storage
+			var retrievedObject = localStorage.getItem('testObject');
+
+			console.log('retrievedObject: ', JSON.parse(retrievedObject));
+
+		    var timeline_config = {
+				width: 	"100%",
+				height: "100%",
+				source: JSON.parse(retrievedObject),
+				//start_at_end:	true,					//OPTIONAL
+				//hash_bookmark: true,					//OPTIONAL
+				css: 	'../compiled/css/timeline.css',	//OPTIONAL
+				js: 	'../compiled/js/timeline-min.js'	//OPTIONAL
+			}
+		</script>
+		<script type="text/javascript" src="../compiled/js/timeline-embed.js"></script>
+		<!-- END Timeline Embed -->
+	</body>
+</html>
