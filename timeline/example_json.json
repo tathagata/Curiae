@@ -2,29 +2,29 @@
 {
     "timeline":
     {
-        "headline":"The Kitchen Sink",
+        "headline":"",
         "type":"default",
-		"startDate":"2011,9,1",
-		"text":"An example of the different kinds of stuff you can do.",
+		"startDate":"1999",
+		"text":"The Impeachment Trial of President William Clinton.",
         "date": [
             {
-                "startDate":"2012,1,26",
-                "headline":"Sh*t Politicians Say",
-                "text":"<p>Sh*t Politicians Say landed just hours before Thursday night’s Republican presidential debate and stars actor Joe Leon. In true political fashion, his character rattles off common jargon heard from people running for office.</p><p>Do these ring a bell? Moral fiber, family values, trust me, three-point plan, earmarks, tough question, children are our future, Washington outsider, jobs, my opponent — all sound familiar.</p>",
+                "startDate":"May 8, 1991",
+                "headline":"First Encounter",
+                "text":"<p>William Clinton, Governor of Arkansas, has an encounter with Paula Jones in a Little Rock hotel room.</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/u4XpeU9erbg",
+                    "media":"http://law2.umkc.edu/faculty/projects/ftrials/clinton/clinton&lewinsky.jpg",
                     "credit":"",
                     "caption":""
                 }
             },
             {
-                "startDate":"2012,1,10",
-                "headline":"Sh*t Nobody Says",
+                "startDate":"1992,11,3",
+                "headline":"Clinton is elected President of the United States.",
                 "text":"<p>Have you ever heard someone say “can I burn a copy of your Nickelback CD?” or “my Bazooka gum still has flavor!” Nobody says that.</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/f-x8t0JOnVw",
+                    "media":"http://law2.umkc.edu/faculty/projects/ftrials/clinton/clintonlew.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -35,7 +35,7 @@
                 "text":"",
                 "asset":
                 {
-                    "media":"http://youtu.be/Ofy5gNkKGOo",
+                    "media":"http://law2.umkc.edu/faculty/projects/ftrials/clinton/clintonmonbw.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -46,9 +46,9 @@
                 "text":"",
                 "asset":
                 {
-                    "media":"http://youtu.be/u-yLGIH7W9Y",
+                    "media":"http://law2.umkc.edu/faculty/projects/ftrials/clinton/clintonlie.jpg",
                     "credit":"",
-                    "caption":"Writers & Creators: Kyle Humphrey & Graydon Sheppard"
+                    "caption":""
                 }
             },
 			{
@@ -57,7 +57,7 @@
                 "text":"",
                 "asset":
                 {
-                    "media":"http://youtu.be/zyyalkHjSjo",
+                    "media":"http://law2.umkc.edu/faculty/projects/ftrials/clinton/timecoverlarge.jpg",
                     "credit":"",
                     "caption":""
                 }
